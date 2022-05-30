@@ -14,3 +14,31 @@
     background-color: bisque;
     
 }
+.bat{
+    height: 300px;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ball{
+    height:50px;
+    transition: transform .2s ease-in 0.1s;
+
+}
+.field:hover .ball{
+    transform: translate(500px, -200px) rotate(320deg);
+    
+}
+.field:hover .bat{
+    
+    transform: rotate(-60deg);
+    transform-origin: 100% 0%;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.field{
+    border: 1px solid gray;
+    height: 500px;
+}

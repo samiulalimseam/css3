@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=o, initial-scale=1.0">
     <title>Transition</title>
     <style>
-        .box{
+        .box{ 
+            color: rebeccapurple;
             width: 200px;
-            height: 200px;
+            height: 80px;
             border: 1px solid cyan;
             background-color: darkcyan;
+            transition: width 1s ease-in-out;
         
         }
         .box:hover{
-            background-color: darkolivegreen;
+            background-color: red;
+            color: yellow;
+            border-radius: 5px;
+           
+            width: 250px;
         }
     </style>
 
@@ -23,5 +29,6 @@
     <div class="box">
         <h1>Transition</h1>
     </div>
+    
 </body>
 </html>
