@@ -1,0 +1,16 @@
+.images .logo{
+    height: 100px;
+    width: 100px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+.outer{
+    background-color: greenyellow;
+}
+.inner{
+    background-color: bisque;
+    transform: scale(.5);
+}
