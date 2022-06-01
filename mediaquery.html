@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        .container{
+            display: flex;
+            max-width: 1200px;
+            margin:0 auto;
+            
+        }
+        .food{
+            border: 1px solid antiquewhite;
+            border-radius: 15px;
+            margin: 10px;
+            padding: 15px;
+            width: 350px;
+        }
+        .food img{ width: 100%;
+
+        }
+        @media (max-width: 760px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+        @media (min-width: 1200px){
+            .container .food{
+                background-color: rgb(252, 224, 247);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero beatae quo labore laudantium facilis voluptatum adipisci repellendus doloribus corrupti iusto sunt repudiandae inventore blanditiis, voluptates qui unde similique. Eos iure quis quam voluptates assumenda beatae sunt iste minima. Omnis, laborum.</p>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>Velit quae doloremque perferendis ducimus corrupti nostrum aspernatur exercitationem officiis placeat natus suscipit tempore sunt, aliquam necessitatibus veritatis odio quasi vitae? Cumque magnam nihil optio corporis explicabo. Cumque perspiciatis sequi modi nobis, delectus asperiores tempora, nulla totam ipsam placeat voluptate!</p>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>Doloremque dignissimos expedita quas est numquam et veritatis, harum in exercitationem blanditiis soluta quisquam, voluptatum alias eligendi corrupti reprehenderit illum nesciunt repellat modi eaque nobis libero impedit. Sapiente similique maiores possimus perspiciatis non consequuntur expedita id maxime, accusamus dolorum eum.</p>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>Ullam quaerat minima eligendi! Atque aliquam dolorum recusandae nam fugit quaerat voluptate sequi cupiditate, alias quibusdam error eius amet accusamus accusantium vero perspiciatis! Minus obcaecati qui, deleniti quod dolor rerum, sequi excepturi vitae totam blanditiis incidunt cumque eius, distinctio quasi!</p>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>Debitis, ipsum. Impedit facilis illum deleniti quae tempora praesentium beatae saepe consectetur non tempore atque deserunt quaerat quasi voluptate nihil corporis nisi, perferendis odio reiciendis repellendus, id officiis enim dolorem quisquam? Quasi alias culpa ex hic. Similique, iure id? Voluptates.</p>
+        </div>
+        <div class="food">
+            <img src="images/healthy-food.jpg" alt="">
+            <p>Totam quam magni nam placeat nesciunt labore illo autem dolores maxime facilis quasi maiores, optio sit itaque quisquam reiciendis ratione sequi natus obcaecati harum, expedita a vel? Aspernatur, magni in fugit, quaerat reiciendis nemo facere, autem veniam quia repudiandae quidem?</p>
+        </div>
+    </div>
+</body>
+</html>

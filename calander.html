@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Calander</title>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        .calander ul{
+            display: grid;
+            grid-template-columns:repeat(7, 1fr);
+            grid-gap: 5px;
+            
+        }
+       li{
+           list-style: none;
+           font-size: 2.5em;
+           height: 80px;
+           background-color: #EAF0CE;
+           padding: 2px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+           
+        }
+        .other-month{
+            background-color: #C0C5C1;
+        }
+    </style>
+</head>
+<body>
+    <div class="calander">
+        <ul>
+            <li >01</li>
+            <li>02</li>
+            <li>03</li>
+            <li>04</li>
+            <li>05</li>
+            <li>06</li>
+            <li>07</li>
+            <li>08</li>
+            <li>09</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+            <li class="other-month">01</li>
+            <li class="other-month">02</li>
+            
+        </ul>
+    </div>
+</body>
+</html>
